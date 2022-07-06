@@ -13,16 +13,16 @@ spring:
     multipart:
       max-file-size: 20MB
       max-request-size: 10MB
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQLInnoDBDialect
-        format_sql: "true"
-    database-platform: org.hibernate.dialect.MySQL5Dialect
-    hibernate:
-      ddl-auto: update
-      naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    show-sql: "true"
+#   jpa:
+#     properties:
+#       hibernate:
+#         dialect: org.hibernate.dialect.MySQLInnoDBDialect
+#         format_sql: "true"
+#     database-platform: org.hibernate.dialect.MySQL5Dialect
+#     hibernate:
+#       ddl-auto: update
+#       naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#     show-sql: "true"
 jwt:
   secret_key: Rollin42356123
   expTime: 86400000
